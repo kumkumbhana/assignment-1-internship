@@ -1,0 +1,54 @@
+body{
+    background-color: burlywood;
+}
+h1{
+    text-align: center;
+    color:white;
+    font-style: italic;
+    font-weight: 700;
+}
+.technology{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    border-style: double;
+    border-color:white;
+    padding: 50px;
+    
+}
+.technology_and_science{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    border-style: double;
+    border-color:white;
+    padding: 50px;
+
+
+}
+.importance of technology{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    border-style: double;
+    border-color:white;
+    padding: 50px;
+}
+.technology_changed{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    border-style: double;
+    border-color:white;
+    padding: 50px;
+}
+.paragraf{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    border-style: double;
+    border-color:white;
+    padding: 50px;
+}
+.add{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    border-style:double;
+    border-color: white;
+    text-align: center;
+}

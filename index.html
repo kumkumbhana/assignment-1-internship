@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Daily Blogs!</title>
+</head>
+<body>
+    <header>
+        <nav">
+                <ul class="navbar_style">
+                    <li class="list_element"><a href="index.html">Home</a></li>
+                    <li class="list_element"><a href="add blog page.html">Add Blog</a></li>
+                    <li class="list_element"><a href="view blog page.html">View Blog</a></li>
+                    <li style="float: right;"><a class="forgot" href="signein.html">SIGN IN</a></li>
+                    <li style="float: right;"><a  class="forgot" href="signup.html">SIGN UP</a></li>
+                </ul>
+        </nav>
+    </header>
+    <div class="center">
+    <h2 class="heading_center">Login Form</h2>
+
+    <form method="post">
+        <div class="imgcontainer">
+            <img src="img_avatar.jpg" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+        
+            <button type="submit">Login</button>
+            <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+</form>
+</div>
+</body>
+</html>
